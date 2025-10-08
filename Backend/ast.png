@@ -1,0 +1,49 @@
+// AST Visualization
+digraph {
+	n612082 [label=FuncDef]
+	n763278 [label="Decl: main"]
+	n612082 -> n763278
+	n820607 [label=FuncDecl]
+	n763278 -> n820607
+	n610817 [label=TypeDecl]
+	n820607 -> n610817
+	n399321 [label=IdentifierType]
+	n610817 -> n399321
+	n259785 [label=Compound]
+	n612082 -> n259785
+	n480184 [label="Decl: x"]
+	n259785 -> n480184
+	n601990 [label=TypeDecl]
+	n480184 -> n601990
+	n399321 [label=IdentifierType]
+	n601990 -> n399321
+	n146250 [label="Constant: 0"]
+	n480184 -> n146250
+	n896531 [label=If]
+	n259785 -> n896531
+	n42200 [label="BinaryOp: <"]
+	n896531 -> n42200
+	n231530 [label="ID: x"]
+	n42200 -> n231530
+	n623390 [label="Constant: 5"]
+	n42200 -> n623390
+	n766715 [label=Compound]
+	n896531 -> n766715
+	n723406 [label="FuncCall: ID(name='printf'
+   )"]
+	n766715 -> n723406
+	n364366 [label="ID: printf"]
+	n723406 -> n364366
+	n188274 [label=ExprList]
+	n723406 -> n188274
+	n325202 [label="Constant: \"x is less than 5\n\""]
+	n188274 -> n325202
+	n124496 [label="UnaryOp: p++"]
+	n766715 -> n124496
+	n231530 [label="ID: x"]
+	n124496 -> n231530
+	n550405 [label=Return]
+	n259785 -> n550405
+	n231530 [label="ID: x"]
+	n550405 -> n231530
+}

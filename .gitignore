@@ -1,0 +1,29 @@
+Frontend/ast-visualizer/node_modules
+
+.vscode
+.DS_Store
+
+Frontend/node_modules
+
+Frontend/package-lock.json
+Frontend/package.json
+
+Frontend/ast-visualizer/.pnp
+Frontend/ast-visualizer/.pnp.js
+
+# testing
+Frontend/ast-visualizer/coverage
+
+# production
+Frontend/ast-visualizer/build
+
+# misc
+Frontend/ast-visualizer/.DS_Store
+Frontend/ast-visualizer/.env.local
+Frontend/ast-visualizer/.env.development.local
+Frontend/ast-visualizer/.env.test.local
+Frontend/ast-visualizer/.env.production.local
+
+Frontend/ast-visualizer/npm-debug.log*
+Frontend/ast-visualizer/yarn-debug.log*
+Frontend/ast-visualizer/yarn-error.log*

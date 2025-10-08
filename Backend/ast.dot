@@ -1,0 +1,40 @@
+digraph {
+	graph [dpi=300 nodesep=0.5 rankdir=TB ranksep=1.0 size="8,10"]
+	node [fillcolor=lightblue font=Helvetica fontsize=14 shape=box style=filled]
+	edge [color=black]
+	4443501776 [label=Program]
+	4443502992 [label="Function: int main"]
+	4443501776 -> 4443502992
+	4443501840 [label=Block]
+	4443502992 -> 4443501840
+	4443502032 [label="Declaration: int x"]
+	4443501840 -> 4443502032
+	4443501904 [label="NUMBER: 0"]
+	4443502032 -> 4443501904
+	4443502736 [label=If]
+	4443501840 -> 4443502736
+	4443502224 [label="BinaryOp: <"]
+	4443502736 -> 4443502224
+	4443502096 [label="IDENTIFIER: x"]
+	4443502224 -> 4443502096
+	4443502160 [label="NUMBER: 5"]
+	4443502224 -> 4443502160
+	4443502288 [label=Block]
+	4443502736 -> 4443502288
+	4443502480 [label=ExpressionStatement]
+	4443502288 -> 4443502480
+	4443502416 [label="FunctionCall: printf"]
+	4443502480 -> 4443502416
+	4443502352 [label="STRING: \"x is less than 5\n\""]
+	4443502416 -> 4443502352
+	4443502672 [label=ExpressionStatement]
+	4443502288 -> 4443502672
+	4443502608 [label="UnaryOp: ++"]
+	4443502672 -> 4443502608
+	4443502544 [label="IDENTIFIER: x"]
+	4443502608 -> 4443502544
+	4443502864 [label=Return]
+	4443501840 -> 4443502864
+	4443502800 [label="IDENTIFIER: x"]
+	4443502864 -> 4443502800
+}

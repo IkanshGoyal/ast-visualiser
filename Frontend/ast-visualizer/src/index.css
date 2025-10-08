@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', sans-serif;
+}
+
+.link {
+  stroke-width: 1px;
+}
+
+.node text {
+  font: 14px sans-serif;
+}
+
+.CodeMirror {
+  height: 400px !important;
+  border: 1px solid #ddd;
+  width: 100%;
+}
+
+svg {
+  min-width: 1600px;
+  min-height: 1200px;
+}
